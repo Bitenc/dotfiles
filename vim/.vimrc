@@ -24,6 +24,8 @@
     "Use this specific term env
     set term=xterm-256color
     set t_RV=
+    "enable mouse support
+    set mouse=a
 " }
 
 " vim-plug setup {
@@ -55,7 +57,7 @@
 
 " General {
     " Appearance {
-        set so=999
+        set so=10
         set number
 	
 	" solarized appearance	
