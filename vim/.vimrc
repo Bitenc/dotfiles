@@ -37,6 +37,18 @@
 	" https://vimawesome.com/plugin/vim-colors-solarized-ours
 	Plug 'altercation/vim-colors-solarized'
 
+        " a nice statusline at the bottom for vim
+        " https://vimawesome.com/plugin/vim-airline-superman
+        Plug 'vim-airline/vim-airline'
+
+        " theme repository for vim-airline
+        " https://vimawesome.com/plugin/vim-airline-themes
+        Plug 'vim-airline/vim-airline-themes'
+	
+	" shows a git diff in the 'gutter' (sign column)
+	" https://vimawesome.com/plugin/vim-gitgutter
+	Plug 'airblade/vim-gitgutter'
+
     " Initialize plugin system
     call plug#end()
 " }
@@ -45,17 +57,21 @@
     " Appearance {
         set so=999
         set number
-		
+	
+	" solarized appearance	
 	syntax enable
 	set background=dark
 	let g:solarized_termcolors=256
 	colorscheme solarized
 
+	" lineNr appearance
         hi LineNr ctermfg=grey
         hi CursorLine cterm=NONE ctermbg=black
         hi CursorLineNr cterm=NONE ctermfg=grey ctermbg=black
         set cursorline
-	
+
+        " vim-airline appearance
+	let g:airline_theme='solarized'
     " }
 " }
 
