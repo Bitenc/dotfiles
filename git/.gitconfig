@@ -1,0 +1,8 @@
+[user]
+	name = Thibault Bitenc
+	email = thibault.bitenc@tum.de
+
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+
