@@ -26,6 +26,14 @@
     set t_RV=
     "enable mouse support
     set mouse=a
+ 
+    "Renaming xterm window
+    set title
+    "Don't show line numbers
+    set nonumber
+    "Always show the status bar
+    set laststatus=2
+    
 " }
 
 " vim-plug setup {
