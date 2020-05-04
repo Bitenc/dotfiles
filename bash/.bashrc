@@ -116,5 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-. ./.bash_prompt
-. ./.bash_aliases
+. ~/.bash_prompt
+. ~/.bash_aliases
