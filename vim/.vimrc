@@ -161,6 +161,7 @@
          "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
          let g:NERDTreeNodeDelimiter = "\u00a0"
          let g:NERDTreeHijackNetrw = 0
+         let g:NERDTreeMouseMode=3
 
          " Close vim if NERDtree is only window
          autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
