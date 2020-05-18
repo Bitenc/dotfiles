@@ -66,6 +66,9 @@
     " Features and enhancements
     " {
 
+        " https://vimawesome.com/plugin/youcompleteme code completion
+		Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+
         " https://editorconfig.org plugin for vim
         " https://vimawesome.com/plugin/editorconfig-vim
         " Plug 'editorconfig/editorconfig-vim'

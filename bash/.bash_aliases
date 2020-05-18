@@ -22,3 +22,5 @@ alias gs='git status'
 alias ga='git add'
 alias gall='git add *'
 alias gpull='git pull origin HEAD'
+
+alias makec='make 2>&1 | grep -E --color=always "error|warning|$"'
