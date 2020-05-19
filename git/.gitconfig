@@ -6,3 +6,5 @@
 	editor = vim
 	excludesfile = ~/.gitignore
 
+[alias]
+	root = rev-parse --show-toplevel
