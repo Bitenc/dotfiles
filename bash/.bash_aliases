@@ -2,6 +2,8 @@
 ######### custom aliases
 #########
 
+### bash related aliases
+
 alias c='cd -'
 
 alias bashaliases='vim ~/.bash_aliases'
@@ -23,3 +25,6 @@ alias ga='git add'
 alias gall='git add *'
 alias gpull='git pull origin HEAD'
 alias groot='cd ./$(git rev-parse --show-cdup)'
+
+### further aliases
+alias makec='make 2>&1 | grep -E --color=always "error|warning|$"'
