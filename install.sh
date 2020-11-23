@@ -1,5 +1,5 @@
 #!/bin/bash
 
-stow ./.dotfiles
+stow .dotfiles
 
 touch ~/.localaliases
