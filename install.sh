@@ -1,7 +1,5 @@
 #!/bin/bash
 
-stow bash
-stow vim
-stow git
+stow ./
 
 touch ~/.localaliases
