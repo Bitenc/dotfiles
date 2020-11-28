@@ -23,8 +23,12 @@ alias gp='git push origin HEAD'
 alias gs='git status'
 alias ga='git add'
 alias gall='git add *'
+alias gf='git fetch --all'
+alias gus='git submodule update'
 alias gpull='git pull origin HEAD'
 alias groot='cd ./$(git rev-parse --show-cdup)'
+
+alias gfau='gf && gpull && gus && gs'
 
 ### further aliases
 alias makec='make 2>&1 | grep -E --color=always "error|warning|$"'
