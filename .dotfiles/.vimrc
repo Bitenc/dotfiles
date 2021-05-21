@@ -67,7 +67,16 @@
     " {
 
         " https://vimawesome.com/plugin/youcompleteme code completion
-		Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+		Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clangd-completer' }
+
+		"vim-lsp, async and derivates
+		"Plug 'mattn/vim-lsp-settings'
+		"Plug 'prabirshrestha/async.vim'
+		"Plug 'prabirshrestha/asyncomplete-lsp.vim'
+		"Plug 'prabirshrestha/asyncomplete.vim'
+		"Plug 'prabirshrestha/vim-lsp'
+		"Plug 'thomasfaingnaert/vim-lsp-ultisnips'
+
 
         " https://editorconfig.org plugin for vim
         " https://vimawesome.com/plugin/editorconfig-vim
@@ -168,6 +177,11 @@
         nmap <leader>k <Plug>GitGutterPrevHunk
         " Decrease amount of executions
         "let g:gitgutter_eager = 0
+    " }
+
+	" youcompleteme {
+        let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+		let g:ycm_confirm_extra_conf = 0
     " }
 
     " NERDtree {
